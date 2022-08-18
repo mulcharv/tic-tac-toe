@@ -98,7 +98,6 @@ const gameBoard = (() => {
     })}
 
     restart.addEventListener('click', () => {
-        tmp.length =0;
         dest.length =0;
     })
 
