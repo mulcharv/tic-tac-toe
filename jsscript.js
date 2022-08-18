@@ -144,10 +144,10 @@ const gameFlow = (() => {
 
             let DiagLeft = boardArray.map((row, index, self) => row[self.length - 1 - index])
             if (allEqual(DiagLeft)) {
-                if (boardArray[2][2] == 'X') {
+                if (boardArray[0][2] == 'X') {
                     winDisplay.textContent = 'Player X has won'
                 }
-                else if (boardArray[2][2] == 'O') {
+                else if (boardArray[0][2] == 'O') {
                     winDisplay.textContent = 'Player O has won'
                 }
             }
